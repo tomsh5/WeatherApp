@@ -1,0 +1,20 @@
+//SETUP
+@import './styles/setup/variables.scss';
+@import './styles/setup/mixins.scss';
+
+
+// BASICS
+@import './styles/basics/base.scss';
+@import './styles/basics/layout.scss';
+@import './styles/basics/helpers.scss';
+
+
+
+//CMPS
+@import './cmps/DayPreview/DayPreview.scss';
+@import './cmps/FavoritePreview/FavoritePreview.scss';
+@import './cmps/Navbar/Navbar.scss';
+
+//VIEWS
+@import './views/WeatherApp/WeatherApp.scss';
+@import './views/FavoritesPage/FavoritesPage.scss';

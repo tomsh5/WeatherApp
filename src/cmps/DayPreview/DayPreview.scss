@@ -1,0 +1,22 @@
+.day-preview {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 0.4rem;
+
+    @include for-wide-layout {
+        margin-bottom: 1rem;
+
+    }
+
+    @include for-narrow-layout {
+        width: 47%;
+        height: 180px;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 100px;
+        margin-bottom: 1rem;
+    }
+}

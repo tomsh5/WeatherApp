@@ -1,0 +1,11 @@
+.favorites-page{
+    color: white;
+
+    .favorites-list{
+
+        @include for-narrow-layout {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

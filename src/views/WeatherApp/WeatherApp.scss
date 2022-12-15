@@ -1,0 +1,131 @@
+.weather-app {
+    color: white;
+    .search-conatiner {
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+
+    .auto-complete {
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 367px;
+        margin-top: 5px;
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 5px;
+
+            li{
+                cursor: pointer;
+
+                &:hover {
+                    background-color: aqua;
+                }
+            }
+        }
+    }
+
+    input {
+        width: 300px;
+        border-radius: 0.3rem;
+        outline: none;
+        border: none;
+        margin-right: 5px;
+
+        @include for-narrow-layout {
+            width: 70%;
+        }
+    }
+
+    .search-btn {
+        font-size: 12px;
+        display: inline-block;
+        background-color: #348de0;
+        color: rgb(255, 255, 255);
+        border: 0.0px solid rgb(255, 255, 255);
+        border-radius: 0.3rem;
+        text-decoration: none;
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+
+
+    .curr-weather {
+        @include for-narrow-layout {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .fa-star {
+        font-size: 1.6rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fas {
+        color: rgb(245, 247, 132);
+    }
+
+    .city-conatiner {
+        margin-left: 2rem;
+        width: 200px;
+        height: 100px;
+
+        .city-name {
+            min-width: 13.5rem;
+
+            h1 {
+                margin-right: 1rem;
+            }
+        }
+
+        h1 {
+            margin-left: 2rem;
+            color: white;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        img {
+            width: 120px;
+        }
+
+        @include for-narrow-layout {
+            margin: 0;
+        }
+
+    }
+
+    .weather-txt {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+
+        @include for-narrow-layout {
+            margin-top: 5rem;
+        }
+
+    }
+
+    .days-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        color: black;
+        justify-content: space-between;
+
+        @include for-narrow-layout {
+            width: 95%;
+        }
+    }
+
+
+}

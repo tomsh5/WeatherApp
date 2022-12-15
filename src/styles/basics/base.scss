@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    // background: url('../../assets/imgs/bg4.jpg') no-repeat center center fixed;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    // text-transform: capitalize;
+
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.night-img {
+    background: url('../../assets/imgs/bg5.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-transform: capitalize;
+}
+
+.day-img {
+    background: url('../../assets/imgs/bg4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-transform: capitalize;
+}

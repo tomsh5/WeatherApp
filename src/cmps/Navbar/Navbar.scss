@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+
+    .logo-container {
+        width: 13rem;
+    }
+
+    ul {
+        margin-right: 20px;
+        list-style-type: none;
+    }
+
+    li {
+        margin-left: 10px;
+    }
+
+    .logo {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    i{
+        cursor: pointer;
+    }
+
+    .active {
+        color: blue;
+    }
+
+    .active-path {
+        color: rgb(136, 119, 119);
+    }
+}
